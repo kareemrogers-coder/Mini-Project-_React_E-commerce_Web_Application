@@ -1,0 +1,63 @@
+.cf{
+    border-radius: 15px;
+    background-color: lightgrey;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.cf label{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right: 5px; 
+}
+
+.lc{
+    color: blue;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.ec-card {
+
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.687);
+transition: 0.3s;
+width: 20%;
+padding: 5px 16px; 
+border: black;
+border-radius: 10%;
+margin-bottom: 10px;
+background-color: rgb(143, 230, 237);
+
+
+/* background-color: rgb(184, 224, 193); */
+}
+.ec-card :hover{
+    box-shadow: 0 8px 16px 0 rgba(55, 25, 222, 0.331);
+}
+
+div img{
+    border-radius: 50%;
+}
+
+.ec-card p{
+    font-weight: bold;
+}
+
+.ec-link {
+    color: purple;
+    /* text-decoration: none; */
+    font-size: large;
+    font-weight: bolder;
+}
+
+.bg-cf{
+    background-color: antiquewhite;
+}
+
+/* background-color: lightcoral;
+    border-radius: 15px;
+    padding: 20px; */

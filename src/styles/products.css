@@ -1,0 +1,53 @@
+.pf{
+    border-radius: 15px;
+    background-color: lightgrey;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.pf label{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right: 5px; 
+}
+
+.lp{
+    color: rgb(197, 9, 9);
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.ep-card {
+
+box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.628);
+transition: 0.3s;
+width: 20%;
+padding: 2px 16px; 
+border-radius: 10%;
+margin-bottom: 10px;
+background-color: rgb(244, 165, 165);
+}
+
+
+.ep-card :hover{
+    box-shadow: 4px 0 0 0 rgba(0,0,0,0.2);
+}
+
+.ep-card p{
+    font-weight: bold;
+}
+
+.ep-link {
+    color: purple;
+    /* text-decoration: none; */
+    font-size: large;
+    font-weight: bolder;
+}
+
+.bg-pf{
+    background-color: rgb(179, 165, 159);
+}

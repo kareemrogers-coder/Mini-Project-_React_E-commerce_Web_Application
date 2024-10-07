@@ -1,0 +1,30 @@
+.navbar-container{
+    background-color: rgb(98, 99, 62);
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    }
+    
+    .navbar-container a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+    
+    }
+    
+    /* wehen you hover the any a tag */
+    .navbar-container a:hover{
+        color: rgb(243, 0, 0);
+    }
+    
+    /* only applies to active links (navlinks) */
+    
+    .navbar-container a.active{
+        color: rgb(221, 160, 244);
+        text-decoration: underline;
+    }

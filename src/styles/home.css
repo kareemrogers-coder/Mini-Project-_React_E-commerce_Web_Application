@@ -1,0 +1,35 @@
+.bg{
+    background-image: linear-gradient(rgba(244, 244, 206, 0.9), rgba(51,45,0,0.9)), url(src/Images/Home_pg.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding: 5%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div h3{
+    color: rgb(12, 12, 12); 
+    font-size: 5vh;  
+    font-weight: bolder;
+    display: flex;
+
+}
+
+div p{
+    font-weight: bolder;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.p{
+    font-size: 3vh;
+}
+
+.header{
+    font-size: 10vh;
+}
+
