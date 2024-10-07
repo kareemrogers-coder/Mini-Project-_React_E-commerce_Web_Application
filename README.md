@@ -1,6 +1,6 @@
 
-## Mini Project: React E-commerce Web Application
 
+## Mini Project: React E-commerce Web Application
 
 **Project Requirements**
 
